@@ -38,7 +38,7 @@ body {
     border-radius: 7px;
     box-shadow: 0px 3px 10px rgba(128, 128, 128, 0.354);
     width: fit-content;
-    width: 360px;
+    width: 400px;
     padding: 40px 30px;
     transition: 0.4s ease;
 }
@@ -70,7 +70,7 @@ body {
     border-radius: 7px;
     border-top: solid 4px red;
     box-shadow: 0px 3px 10px rgba(128, 128, 128, 0.354);
-    width: 360px;
+    width: 400px;
     padding: 40px 30px;
     transition: 0.4s ease;
 }
@@ -92,7 +92,7 @@ body {
     display: flex;
     flex-direction: column;
     width: fit-content;
-    width: 360px;
+    width: 400px;
     padding: 40px 30px;
     border-top: 4px solid orange;
     border-radius: 7px;
@@ -116,7 +116,7 @@ body {
     border: none;
     border-top: 4px solid rgb(0, 115, 255);
     width: fit-content;
-    width: 360px;
+    width: 400px;
     border-radius: 7px;
     box-shadow: 0px 3px 10px rgba(128, 128, 128, 0.354);
     padding: 40px 30px;
