@@ -6,7 +6,7 @@
 
 body {
     height: 100vh;
-    font-family: sans-serif, serif;
+    font-family: 'Poppins' , sans-serif;
 }
 
 .header-text {
@@ -20,21 +20,32 @@ body {
 }
 
 .light {
-    font-weight: lighter;
-    color: gray;
+    font-weight: 200;
+    color: hsl(212, 6%, 44%);
 }
 
 .bold {
-    font-weight: bold;
-    color: rgb(83, 76, 76);
+    font-weight: 600;
+    color: hsl(234, 12%, 34%);
 }
 
 .gray {
-    color: rgb(69, 69, 69);
+    color: hsl(234, 12%, 34%);
+}
+
+.container h3 {
+    color: hsl(234, 12%, 34%);
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.container p {
+    color: hsl(212, 6%, 44%);
+    font-size: 15px;
 }
 
 .box-supervisor {
-    border-top: 4px solid cyan;
+    border-top: 4px solid hsl(180, 62%, 55%);
     border-radius: 7px;
     box-shadow: 0px 3px 10px rgba(128, 128, 128, 0.354);
     width: fit-content;
@@ -44,7 +55,7 @@ body {
 }
 
 .box-supervisor:hover {
-    box-shadow: 0px 4px 10px cyan;
+    box-shadow: 0px 4px 10px hsl(180, 62%, 55%);
     text-decoration: underline;
     cursor: pointer;
 }
@@ -53,13 +64,13 @@ body {
     display: flex;
     width: 100%;
     justify-content: flex-end;
-    margin-top: 50px;
+    margin-top: 30px;
 }
 
 .box-supervisor-info {
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 6px;
 }
 
 .box-team-builder {
@@ -68,7 +79,7 @@ body {
     width: fit-content;
     border: none;
     border-radius: 7px;
-    border-top: solid 4px red;
+    border-top: solid 4px hsl(0, 78%, 62%);
     box-shadow: 0px 3px 10px rgba(128, 128, 128, 0.354);
     width: 400px;
     padding: 40px 30px;
@@ -76,7 +87,7 @@ body {
 }
 
 .box-team-builder:hover {
-    box-shadow: 0px 4px 10px red;
+    box-shadow: 0px 4px 10px hsl(0, 78%, 62%);
     text-decoration: underline;
     cursor: pointer;
 }
@@ -84,7 +95,7 @@ body {
 .box-team-builder-info {
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 6px;
 }
 
 .box-karma {
@@ -94,14 +105,14 @@ body {
     width: fit-content;
     width: 400px;
     padding: 40px 30px;
-    border-top: 4px solid orange;
+    border-top: 4px solid hsl(34, 97%, 64%);
     border-radius: 7px;
     box-shadow: 0px 3px 10px rgba(128, 128, 128, 0.354);
     transition: 0.4s ease;
 }
 
 .box-karma:hover {
-    box-shadow: 0px 4px 10px orange;
+    box-shadow: 0px 4px 10px hsl(34, 97%, 64%);
     text-decoration: underline;
     cursor: pointer;
 }
@@ -109,12 +120,12 @@ body {
 .box-karma-info {
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 6px;
 }
 
 .box-calculator {
     border: none;
-    border-top: 4px solid rgb(0, 115, 255);
+    border-top: 4px solid hsl(212, 86%, 64%);
     width: fit-content;
     width: 400px;
     border-radius: 7px;
@@ -124,7 +135,7 @@ body {
 }
 
 .box-calculator:hover {
-    box-shadow: 0px 4px 10px rgb(0, 115, 255);
+    box-shadow: 0px 4px 10px hsl(212, 86%, 64%);
     cursor: pointer;
     text-decoration: underline;
 }
@@ -132,7 +143,7 @@ body {
 .box-calculator-info {
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 6px;
 }
 
 .container {
