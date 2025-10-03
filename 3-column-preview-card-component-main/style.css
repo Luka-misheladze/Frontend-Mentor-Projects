@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+}
+
+.row-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.row-container p {
+    color: hsla(0, 0%, 100%, 0.75);
+    font-size: 15px;
+    font-family: "Lexend Deca", sans-serif;
+    font-weight: 400;
+}
+
+.row-container h2 {
+    color: hsl(0, 0%, 95%);
+    font-size: 35px;
+    font-family: "Big Shoulders", sans-serif;
+    font-weight: 700;
+}
+
+.row-container button {
+    background-color: hsl(0, 0%, 95%);
+}
+
+.box-sedans {
+    background-color: hsl(31, 77%, 52%);
+    display: flex;
+    flex-direction: column;
+    padding: 30px 40px;
+    height: 420px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.box-sedans-info {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.img {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: left;
+}
+
+.learn-more-button {
+    margin-top: 60px;
+    position: relative;
+    top: 10px;
+    font-family: "Lexend Deca", sans-serif;
+}
+
+.box-sedans button {
+    display: inline-block;
+    color: hsl(31, 77%, 52%);
+    border: 2px solid;
+    padding: 10px 25px;
+    border-radius: 18px;
+    cursor: pointer;
+    transition: 0.4s ease;
+}
+
+.box-sedans button:hover {
+    background-color: transparent;
+    color: white;
+    border: 2px solid;
+}
+
+.box-suvs {
+    background-color: hsl(184, 100%, 22%);
+    padding: 30px 40px;
+    display: flex;
+    flex-direction: column;
+    height: 420px;
+}
+
+.box-suvs-info {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.box-suvs button {
+    display: inline-block;
+    color: hsl(184, 100%, 22%);
+    border: 2px solid;
+    padding: 10px 25px;
+    border-radius: 18px;
+    cursor: pointer;
+    transition: 0.4s ease;
+}
+
+.box-suvs button:hover {
+    background-color: transparent;
+    color: white;
+    border: 2px solid;
+}
+
+.box-luxury {
+    background-color: hsl(179, 100%, 13%);
+    display: flex;
+    flex-direction: column;
+    padding: 30px 40px;
+    height: 420px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.box-luxury-info {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.box-luxury button {
+    display: inline-block;
+    color: hsl(179, 100%, 13%);
+    border: 2px solid;
+    padding: 10px 25px;
+    border-radius: 18px;
+    cursor: pointer;
+    transition: 0.4s ease;
+}
+
+.box-luxury button:hover {
+    background-color: transparent;
+    color: white;
+    border: 2px solid;
+}
+
+.rights-reserved-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    font-family: "Lexend Deca", sans-serif;
+    padding-bottom: 15px;
+}
+
+.rights-reserved-section a:hover {
+    text-decoration: none;
+}
