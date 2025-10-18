@@ -1,0 +1,145 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    font-family: "Red Hat Display", sans-serif;
+    background-color: hsl(225, 100%, 94%);
+}
+
+.card {
+    background-color: white;
+    width: 415px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+    border-radius: 15px;
+    overflow: hidden;
+    height: auto;
+}
+
+.illustration {
+    background-image: url(./images/illustration-hero.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 230px;
+    object-fit: cover;
+}
+
+.content {
+    padding: 50px 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.title {
+    color: hsl(223, 47%, 23%);
+    font-weight: 950;
+    font-size: 23px;
+}
+
+.description {
+    color: hsl(224, 23%, 55%);
+    font-weight: 600;
+    margin-top: 15px;
+}
+
+p {
+    font-size: 16px;
+}
+
+.plan-details {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    background-color: hsl(225, 100%, 98%);
+    padding: 20px 0px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.plan-info {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    position: relative;
+    right: 35px;
+}
+
+.plan-name {
+    color: hsl(223, 47%, 23%);
+    font-weight: 950;
+}
+
+.plan-price {
+    color: hsl(224, 23%, 55%);
+    font-weight: 600;
+}
+
+.change-plan-button {
+    border: none;
+    color: hsl(245, 75%, 52%);
+    font-weight: 700;
+    text-decoration: underline;
+    cursor: pointer;
+    background: none;
+}
+
+.change-plan-button:hover {
+    text-decoration: none;
+    color: hsl(245, 75%, 65%);
+}
+
+.button-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    margin-top: 30px;
+    width: 100%;
+}
+
+.proceed-button {
+    width: 100%;
+    background-color: hsl(245, 75%, 52%);
+    color: white;
+    padding: 15px;
+    font-size: 15px;
+    font-weight: 700;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    box-shadow: 0px 3px 10px hsla(245, 75%, 52%, 0.75);
+}
+
+.proceed-button:hover {
+    background: hsl(245, 75%, 65%);
+}
+
+.cancel-button {
+    width: 100%;
+    border: none;
+    background: none;
+    color: hsl(224, 23%, 55%);
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 15px;
+    font-size: 15px;
+}
+
+.cancel-button:hover {
+    color: hsl(223, 47%, 23%);
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    align-items: center;
+}
