@@ -1,0 +1,161 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background-color:hsl(221, 100%, 96%);
+    font-family: sans-serif, serif;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.result-side {
+    text-align: center;
+    color: white;
+    background: linear-gradient(hsl(252, 100%, 67%) , hsl(241, 81%, 54%));
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    height: 500px;
+    width: 350px;
+    justify-content: center;
+    border-radius: 30px;
+}
+
+.grey {
+    color: rgba(255, 255, 255, 0.74);
+}
+
+.header-text {
+    position: relative;
+    bottom: 25px;
+}
+
+.rating {
+    position: relative;
+    top: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.score {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    position: relative;
+    bottom: 15px;
+    background: linear-gradient(360deg,hsla(241, 72%, 46%, 0), hsla(256, 72%, 46%, 1));
+    border-radius: 200px;
+    width: 60%;
+    height: 40%;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.score h3 {
+    font-size: 70px;
+}
+
+.summary {
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(0, 0%, 100%);
+    height: 500px;
+    width: 350px;
+    padding: 10px;
+    gap: 50px;
+}
+
+.summary-scores {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    height: 100%;
+    gap: 20px;
+}
+
+.summary-scores h3 {
+    font-size: 15px;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 85%;
+    position: relative;
+    margin: 0 auto;
+}
+
+#reaction {
+    color: hsl(0, 100%, 67%);
+    background-color: hsl(0, 100%, 92%);
+    padding: 15px 10px;
+    border-radius: 10px;
+}
+
+#memory {
+    color: hsl(39, 100%, 56%);
+    background-color: hsl(39, 100%, 92%);
+    padding: 15px 10px;
+    border-radius: 10px;
+}
+
+#verbal {
+    color: hsl(166, 100%, 37%);
+    padding: 15px 10px;
+    background-color: hsl(166, 100%, 92%);
+    border-radius: 10px;
+}
+
+#visual {
+    color: hsl(234, 85%, 45%);
+    padding: 15px 10px;
+    border-radius: 10px;
+    background-color: hsl(234, 85%, 92%);
+}
+
+.summary-scores h3 {
+    position: relative;
+    right: 50px;
+}
+
+.header-text2 {
+    position: relative;
+    top: 35px;
+    left: 20px;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 30px;
+}
+
+.btn button {
+    padding: 15px 100px;
+    border-radius: 20px;
+    border: none;
+    color: white;
+    font-size: 17px;
+    background-color: hsl(224, 30%, 27%);
+    cursor: pointer;
+    transition: 0.4s ease;
+}
+
+.btn button:hover {
+    transition: 0.4s ease;
+    background: linear-gradient(hsl(252, 100%, 67%) , hsl(241, 81%, 54%));
+}
