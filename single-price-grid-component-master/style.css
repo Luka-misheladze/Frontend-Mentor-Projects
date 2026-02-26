@@ -1,0 +1,138 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(204, 43%, 93%);
+    font-family: "Karla", sans-serif;
+    height: 100vh;
+}
+
+.top-div h1 {
+    color: hsl(179, 62%, 43%);
+    position: relative;
+    bottom: 30px;
+}
+
+.top-div {
+    background-color: white;
+    padding: 0px 30px; 
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 10px 10px 0px 0px;
+    width: 700px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 700px;
+    margin: 0 auto;
+}
+
+.bottom-div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.supscription {
+    background-color: hsl(179, 61%, 33%);
+    width: 50%;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0px 40px;
+}
+
+.supscription h2 {
+    position: relative;
+    bottom: 30px;
+    font-size: 18px;
+    color: white;
+}
+
+.right-div {
+    background-color: hsl(179, 62%, 43%);
+}
+
+.head-text {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    position: relative;
+}
+
+.head-text h2 {
+    color: hsl(71, 73%, 54%);
+}
+
+.price {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.pm {
+    color: rgba(255, 255, 255, 0.671);
+    padding-left: 10px;
+}
+
+.dollar {
+    color: white;
+    font-size: 30px;
+}
+
+.fl {
+    color: white;
+}
+
+.signup-btn {
+    position: relative;
+    top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.signup-btn button {
+    background-color: hsl(71, 73%, 54%);
+    border: none;
+    color: white;
+    padding: 15px 0px;
+    width: 300px;
+    box-shadow: 0px 0px 10px gray;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.4s ease;
+}
+
+.signup-btn button:hover {
+    transform: scale(1.1);
+}
+
+.right-div {
+    width: 50%;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 30px;
+    gap: 15px;
+}
+
+.right-div p {
+    font-size: 16px;
+}
+
+.right-div {
+    color: white;
+}
