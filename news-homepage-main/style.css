@@ -1,0 +1,291 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    gap: 950px;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: hsl(236, 13%, 42%);
+}
+
+.logo h1 {
+    font-size: 50px;
+    cursor: default;
+}
+
+.home {
+    display: inline-block;
+    position: relative;
+    width: fit-content;
+    padding-bottom: 2px;
+}
+
+.home::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 0%;
+    transition: 0.4s ease;
+    background-color: hsl(236, 13%, 42%);
+    height: 2px;
+}
+
+.home:hover::after{
+    width: 100%;
+}
+
+.new {
+    display: inline-block;
+    position: relative;
+    width: fit-content;
+    padding-bottom: 2px;
+}
+
+.new::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 0%;
+    transition: 0.4s ease;
+    background-color: hsl(236, 13%, 42%);
+    height: 2px;
+}
+
+.new:hover::after{
+    width: 100%;
+}
+
+.popular {
+    display: inline-block;
+    position: relative;
+    width: fit-content;
+    padding-bottom: 2px;
+}
+
+.popular::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 0%;
+    transition: 0.4s ease;
+    background-color: hsl(236, 13%, 42%);
+    height: 2px;
+}
+
+.popular:hover::after{
+    width: 100%;
+}
+
+.trending {
+    display: inline-block;
+    position: relative;
+    width: fit-content;
+    padding-bottom: 2px;
+}
+
+.trending::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 0%;
+    transition: 0.4s ease;
+    background-color: hsl(236, 13%, 42%);
+    height: 2px;
+}
+
+.trending:hover::after{
+    width: 100%;
+}
+
+.categories {
+    display: inline-block;
+    position: relative;
+    width: fit-content;
+    padding-bottom: 2px;
+}
+
+.categories::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 0%;
+    transition: 0.4s ease;
+    background-color: hsl(236, 13%, 42%);
+    height: 2px;
+}
+
+.categories:hover::after{
+    width: 100%;
+}
+
+.container1 {
+    display: flex;
+    flex-direction: column;
+    max-width: 900px;
+}
+
+.bottom-divs {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.left-side h2 {
+    font-size: 65px;
+}
+
+.left-side {
+    position: relative;
+    top: 10px;
+}
+
+.right-side-txt {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    position: relative;
+    bottom: 10px;
+}
+
+.right-side-txt p {
+    font-size: 18px;
+    color: hsl(236, 13%, 42%);
+}
+
+.btn button {
+    letter-spacing: 5px;
+    border: none;
+    background-color: hsl(5, 85%, 63%);
+    font-size: 17px;
+    font-weight: 700;
+    padding: 15px 25px;
+    transition: 0.3s ease;
+}
+
+.btn button:hover {
+    background-color: hsl(240, 100%, 5%);
+    color: hsl(233, 8%, 79%);
+    cursor: pointer;
+}
+
+.btn {
+    position: relative;
+    top: 30px;
+}
+
+.right-side {
+    display: flex;
+    flex-direction: column;
+}
+
+.full-top-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+    margin-top: 30px;
+}
+
+.container2 {
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(240, 100%, 5%);
+    color: white;
+    height: 610px;
+    justify-content: center;
+    padding: 0px 25px;
+}
+
+.cards {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.card1, .card2 {
+    border-bottom: 1px solid hsl(236, 13%, 42%);
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding-bottom: 30px;
+}
+
+.card3 {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.card1 h3, .card2 h3, .card3 h3 {
+    font-size: 25px;
+}
+
+.card1 p, .card2 p, .card3 p {
+    color: hsl(236, 13%, 42%);
+}
+
+.container2-header {
+    color: hsl(35, 77%, 62%);
+    font-size: 40px;
+    position: relative;
+    bottom: 60px;
+}
+
+.bottom-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 110px;
+    margin-top: 50px;
+}
+
+.side1, .side2, .side3 {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.right-side2 {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.right-side2 h2 {
+    color: hsl(5, 85%, 63%);
+    font-size: 35px;
+}
+
+.right-side2 h3 {
+    font-size: 22px;
+}
