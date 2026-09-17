@@ -324,8 +324,14 @@ footer {
     gap: 30px;
 }
 
+.socials img {
+    width: 24px;
+    height: auto;
+}
+
 .socials .a1{
     transition: 0.4s ease;
+    padding: 10px;
 }
 
 .socials .a1:hover {
@@ -334,6 +340,7 @@ footer {
 
 .socials .a2{
     transition: 0.4s ease;
+    padding: 10px;
 }
 
 .socials .a2:hover {
@@ -342,6 +349,7 @@ footer {
 
 .socials .a3{
     transition: 0.4s ease;
+    padding: 10px;
 }
 
 .socials .a3:hover {
