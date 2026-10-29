@@ -1,0 +1,174 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    font-family: "League Spartan", sans-serif;
+}
+
+.top-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 200px;
+    gap: 200px;
+}
+
+.left-div {
+    display: flex;
+    flex-direction: column;
+}
+
+.left-div h1 {
+    color: hsl(300, 43%, 22%);
+    font-size: 60px;
+    width: 400px;
+}
+
+.left-div p {
+    width: 450px;
+    font-size: 19px;
+    color: hsl(303, 10%, 53%);
+    font-weight: 500;
+    margin-top: 30px;
+    line-height: 25px;
+}
+
+#box p {
+    color: hsl(300, 43%, 22%);
+    font-size: 19px;
+    font-weight: 700;
+}
+
+#box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    background-color: hsl(0, 0%, 93%);
+    border-radius: 10px;
+}
+
+.box1 {
+    margin-right: 60px;
+    padding: 20px 40px;
+}
+
+.box2 {
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+    padding: 20px 0px;
+}
+
+.box3 {
+    margin-top: 20px;
+    margin-right: -20px;
+    margin-left: 80px;
+    padding: 20px 0px;
+}
+
+.bottom-section {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 100px;
+}
+
+.bottom-section h3 {
+    color: white;
+}
+
+.bottom-section img {
+    border-radius: 100%;
+}
+
+.square1 p {
+    width: 300px;
+}
+
+.top1 {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-left: 50px;
+}
+
+.top2 {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-left: 50px;
+}
+
+.top3 {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-left: 50px;
+}
+
+.txt1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.txt2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.txt3 {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.square2 p {
+    width: 300px;
+}
+
+.square3 p {
+    width: 300px;
+}
+
+.square1, .square2, .square3 {
+    background-color: hsl(300, 43%, 22%);
+    padding: 50px 0px;
+    border-radius: 10px;
+}
+
+.square1, .square2, .square3 p {
+    color: white;
+}
+
+.p1, .p2 {
+    color: hsl(333, 80%, 67%);
+    margin-top: 5px;
+}
+
+.ppp3 {
+    color: hsl(333, 80%, 67%);
+}
+
+.pp-1, .pp-2, .pp-3 {
+    margin-top: 30px;
+    line-height: 25px;
+    font-size: 17px;
+    margin-left: 50px;
+}
+
+.ppp3 {
+    color: hsl(333, 80%, 67%);
+}
+
+.sq2 {
+    margin-top: 15px;
+}
+
+.sq3 {
+    margin-top: 30px;
+}
